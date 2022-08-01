@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*****************************************Top-Container****************************/
+.top-container {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.h2 {
+  text-align: center;
+  font-size: 120px;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  transition: 0.5s;
+
+}
+
+.h2:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+
+
+/*****************************************Middle-Container****************************/
+.middle-container {
+  width: 100%;
+  height: 450px;
+  background-color: #DBE2EF;
+}
+
+/***********************************************Pic 1********************************/
+
+.middle-containerpic1 {
+  width: 450px;
+  height: auto;
+  background-color: orange;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: center;
+
+}
+
+.middle-containerpic1 img {
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  transition: 5s;
+
+}
+
+
+
+
+.middle-containerpic1:hover img {
+  transform: scale(1.1);
+}
+
+.middle-containerpic1para1 p {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 2;
+  color: white;
+  text-shadow: 2px 1px 5px black;
+  transition: 0.5s;
+
+
+}
+
+.middle-containerpic1para1 {
+  display: none;
+}
+
+.middle-containerpic1:hover>.middle-containerpic1para1 {
+  display: block;
+}
+
+/***********************************************Pic 2********************************/
+
+.middle-containerpic2 {
+  width: 470px;
+  height: auto;
+  background-color: orange;
+  border: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+
+
+}
+
+.middle-containerpic2 img {
+
+  display: block;
+  padding: 0;
+  margin: 0;
+  transition: 5s;
+
+
+}
+
+
+.middle-containerpic2:hover img {
+  transform: scale(1.1);
+}
+
+.middle-containerpic2para2 p {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 2;
+  color: white;
+  text-shadow: 2px 1px 5px black;
+  transition: 0.5s;
+
+
+}
+
+.middle-containerpic2para2 {
+  display: inline-block;
+
+}
+
+
+.middle-containerpic2para2 {
+  display: none;
+}
+
+
+
+.middle-containerpic2:hover>.middle-containerpic2para2 {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+/***********************************Bottom1-Container**********************************/
+
+.bottom1-container {
+  width: 100%;
+  height: 700px;
+  background-image: url(https://businessblog.trivago.com/wp-content/uploads/2019/05/hotel-websites-inspiring-guests-to-book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: accommodation;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes accommodation {
+  0% {
+    background-image: url(https://media.cntraveler.com/photos/5f678a747557491753645012/master/w_4000,h_2666,c_limit/w-doha-qatar-suite.jpg);
+  }
+
+  25% {
+    background-image: url(https://www.planetware.com/wpimages/2020/01/best-underwater-hotels-muraka-conrad-maldives-rangali-island.jpg);
+  }
+
+  50% {
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/South%20America/Colombia/blue-apple-beach-house-isla-tierra-bomba-colombia-P.jpg);
+  }
+
+  75% {
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/02/15/13/gmpalaciodeisora1.jpg?quality=75&width=640&height=614&fit=bounds&format=pjpg&crop=16%3A9%2Coffset-y0.5&auto=webp);
+  }
+
+  100% {
+    background-image: url(https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2021/11/HERO_Six-Senses-Zighy-Bay-3.jpg?w=2200&h=880&crop=1);
+  }
+}
+
+
+.bottom1-container h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  color: #3AB4F2;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  position: relative;
+  top: 40px;
+
+}
+
+.exclusivehotels {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid #3AB4F2;
+  box-shadow: 0 0 10px #3AB4F2, 0 0 40px #3AB4F2, 0 0 80px #3AB4F2;
+  background-color: white;
+
+}
+
+.bottom1hotels {
+  width: 370px;
+  height: 100px;
+  border: 1px solid black;
+  transition: 0.5s;
+  display: inline-block;
+
+}
+
+.bottom1hotels img {
+  width: 50%;
+  height: 100px;
+}
+
+.bottom1hotels p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  color: white;
+  right: 5px;
+  top: 40%;
+  display: inline-block;
+
+}
+
+.bottom1hotels:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+
+.bottom1hotels p:hover {
+  text-decoration: underline;
+
+}
+
+
+
+
+
+.affordablehotels {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 35px;
+  display: inline-block;
+}
+
+/***********************************************Bottom2-Container****************************************/
+
+.bottom2-container {
+  background-color: #DBE2EF;
+  width: 100%;
+  height: 2700px;
+}
+
+.bottom2-container h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  color: #3AB4F2;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.foodname {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+}
+
+
+.imagepg {
+  display: inline-block;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+
+}
+
+
+/***********************************************Bottom3-Container****************************************/
+
+.bottom3-container {
+  background-image: url('tourguide/tour.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.tourguide {
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+
+}
+
+.bottom3div1 {
+  height: 80%;
+  width: 90%;
+  max-width: 440px;
+  color: black;
+  text-align: center;
+  background-color: blue;
+
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+
+
+}
+
+.tourperson {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.bottom3div1 h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+.bottom3div1 p {
+  margin: 20px 15px;
+  font-size: 18px;
+  transition: background-color 4.5s;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.socialmedia {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+
+}
+
+.socialmedia:hover {
+  background-color: grey;
+}
+
+.btn {
+  display: inline-block;
+  width: 30%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  transition: 0.5s;
+
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+
+
+
+
+/***********************************************Bottom4-Container****************************************/
+
+
+.bottom4-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DBE2EF;
+}
+
+.bottom4div1 {
+  display: inline-block;
+
+}

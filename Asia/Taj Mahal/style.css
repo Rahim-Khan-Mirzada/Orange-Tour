@@ -1,0 +1,260 @@
+/***********************************************Top-Container****************************************/
+.top-container {
+    background-image: url(images/tajmahal.png);
+}
+
+/***********************************************Middle-Container****************************************/
+
+
+/**********************Pic 1**********************/
+.middle-containerpic1 {
+    position: relative;
+    left: 80px;
+    top: 40px;
+
+}
+
+.middle-containerpic1para1 {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+
+
+}
+
+/**********************Pic 2**********************/
+.middle-containerpic2 {
+    position: relative;
+    left: 800px;
+    bottom: 230px;
+
+
+}
+
+.middle-containerpic2 img {
+    width: 100%;
+}
+
+
+.middle-containerpic2para2 {
+    position: absolute;
+    top: 70px;
+    right: 2px;
+    width: 400px;
+    padding-left: 0px;
+
+
+
+
+
+}
+
+/***********************************************Bottom1-Container****************************************/
+
+.exclusivehotels {
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+
+}
+
+.bottom1e1 {
+    position: relative;
+    right: 200px;
+    top: 100px;
+}
+
+.bottom1e2 {
+    position: relative;
+    right: 575px;
+    top: 245px;
+}
+
+.bottom1e3 {
+    position: relative;
+    top: 280px;
+    left: 60px;
+
+}
+
+.bottom1e4 {
+    position: relative;
+    top: 427px;
+    right: 315px;
+}
+
+.affordablehotels {
+    position: relative;
+    bottom: 130px;
+    right: 10px;
+
+
+}
+
+.bottom1e5 {
+    position: relative;
+    left: 700px;
+    bottom: 125px;
+
+
+}
+
+.bottom1e6 {
+    position: relative;
+    left: 325px;
+    top: 20px;
+
+
+}
+
+.bottom1e7 {
+    position: relative;
+    top: 170px;
+    right: 48px;
+}
+
+.bottom1e8 {
+    position: relative;
+    left: 700px;
+    top: 210px;
+}
+
+/***********************************************Bottom2-Container****************************************/
+/***************************** Food-1 *****************************/
+.foodh1 {
+    position: relative;
+    right: 440px;
+    bottom: 250px;
+
+}
+
+.image1 {
+    position: relative;
+    left: 740px;
+    top: 90px;
+
+
+}
+
+
+
+.imageps1 {
+    position: relative;
+    bottom: 230px;
+    right: 20px;
+
+
+}
+
+/***************************** Food-2 *****************************/
+.foodh2 {
+    position: relative;
+    right: 600px;
+    bottom: 20px;
+
+
+}
+
+
+
+.image2 {
+    position: relative;
+    left: 110px;
+
+}
+
+.imageps2 {
+    position: relative;
+    left: 70px;
+    top: 0px;
+
+}
+
+/***************************** Food-3 *****************************/
+.foodh3 {
+    position: relative;
+    right: 1080px;
+    top: 220px;
+
+
+}
+
+.image3 {
+    position: relative;
+    left: 740px;
+    top: 220px;
+
+}
+
+.imageps3 {
+    position: relative;
+    top: 200px;
+    right: 560px;
+
+}
+
+/***************************** Food-4 *****************************/
+.foodh4 {
+    position: relative;
+    left: 110px;
+    top: 100px;
+
+}
+
+.image4 {
+    position: relative;
+    right: 160px;
+    top: 450px;
+
+
+
+}
+
+.imageps4 {
+    position: relative;
+    left: 630px;
+    top: 150px;
+
+}
+
+/***************************** Food-5 *****************************/
+
+
+.foodh5 {
+    position: relative;
+    right: 550px;
+    top: 350px;
+
+}
+
+.image5 {
+    position: relative;
+    top: 650px;
+
+
+}
+
+.imageps5 {
+    position: relative;
+    top: 380px;
+    left: 10px;
+
+
+}
+
+
+/***********************************************Bottom3-Container****************************************/
+
+.bottom3div1 {
+    position: relative;
+    right: 100px;
+
+}
+
+.tourguide {
+    position: relative;
+    right: 260px;
+    bottom: 240px;
+
+
+}
